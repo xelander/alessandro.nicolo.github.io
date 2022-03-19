@@ -1,0 +1,61 @@
+.container-particle-header {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-particle-header>div {
+    position: absolute;
+    z-index: 2;
+}
+
+.container-particle-header>div>h1,
+.container-particle-header>div>h3 {
+    background-color: transparent !important;
+}
+
+.container-particle-header>div>h3 {
+    color: white;
+}
+
+.container-particle-header>canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.icon-html {
+    background-image: url(../assets/img/html5.png);
+    background-size: 65px 90px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+}
+
+.icon-js {
+    background-image: url(../assets/img/javascript.png);
+    background-size: 65px 90px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+}
+
+.icon-css {
+    background-image: url(../assets/img/css3.png);
+    background-size: 65px 90px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+}
+
+.icon-ang {
+    background-image: url(../assets/img/angular.png);
+    background-size: 71px 78px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+}
