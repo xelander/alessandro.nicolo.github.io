@@ -260,5 +260,27 @@
       menuToggleTimes.classList.add('fa-bars');
     }
   }
+
+  /* const personas = document.querySelectorAll('.pop');
+  if (!!personas) {
+    personas.forEach(
+      (persona) => {
+        persona.addEventListener('click', (event) => {
+          event.preventDefault()
+          event.stopPropagation()
+          if (!!event && !!event.srcElement) {
+            const imgIntoModal = document.querySelector('.imagepreview')
+            const modal = document.querySelector('#imagemodal')
+            if (!!modal) {
+              imgIntoModal.setAttribute('src', event.srcElement.currentSrc)
+              console.log(modal)
+              modal.classList.remove('hidden')
+              modal.classList.add('show')
+            }
+          }
+        })
+      }
+    )
+  } */
 })()
 

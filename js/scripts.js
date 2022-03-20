@@ -58,6 +58,19 @@ window.addEventListener('DOMContentLoaded', event => {
     particlesJS.load('particles-js', 'assets/json/particles.json', function () {
         console.log('callback - particles-js config loaded');
     });
+
+    const personas = document.querySelectorAll('.pop');
+    if (!!personas) {
+        personas.forEach(
+            (persona) => {
+                persona.addEventListener('click', (event) => {
+                    console.log(event)
+                    event.preventDefault()
+                    event.stopPropagation()
+                })
+            }
+        )
+    }
 })
 
 function fadeOut(el) {
