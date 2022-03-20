@@ -452,11 +452,15 @@ body {
     color: #fff;
   }
   #header .logo img {
-    max-height: 40px;
+    min-width: 130px;
+    min-height: 60px;
   }
   #header.header-scrolled {
     background: rgba(0, 0, 0, 0.9);
     padding: 12px 0;
+  }
+  #header.header-scrolled img {      
+    filter: invert(100%);
   }
   
   /*--------------------------------------------------------------
